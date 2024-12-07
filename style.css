@@ -23,7 +23,7 @@ nav i{
 }
 nav a{
     color: rgb(202, 186, 93);
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
     vertical-align: middle;
     padding: 10px;
@@ -53,12 +53,12 @@ nav a:hover{
     border-radius: 90px;
 }
 .main-body .left{
-    color: #fff;
+    color: rgb(202, 186, 93);
     font-size: 90px;
     margin-left: 10%;
 }
 .main-body .right{
-    color: #fff;
+    color:rgb(202, 186, 93);
     font-size: 90px;
     margin-right: 10%;
 }
