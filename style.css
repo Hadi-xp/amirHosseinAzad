@@ -95,7 +95,7 @@ nav a:hover i {
         background-position: center; /* Centers the background */
         min-height: 100vh; /* Ensures body height matches viewport height */
         overflow-x: hidden; /* Prevents horizontal scrolling due to background issues */
-        background-attachment: scroll; /* Mobile-safe attachment */
+        background-attachment: fixed; /* Mobile-safe attachment */
     }
     nav {
         justify-content: center;
@@ -133,7 +133,7 @@ nav a:hover i {
         background-attachment: scroll; /* Mobile-safe attachment */
     }
     nav a {
-        font-size: 11px;
+        font-size: 9px;
     }
     .main-body img {
         width: 70%;
