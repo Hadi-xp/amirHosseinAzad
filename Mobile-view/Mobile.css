@@ -8,3 +8,19 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
+
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.image-holder{
+    width: 360px;
+    height: 440px;
+    background-image: url('../images/drAzad2.jpg');
+    background-size: cover;
+    border-bottom-left-radius:300px ;
+    border-bottom-right-radius:300px ;
+}
