@@ -1,3 +1,4 @@
+/* body styles & back-ground */
 body{
     margin: 0;
     padding: 0;
@@ -8,14 +9,12 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
-
-
+/* centering image holder */
 .image-container{
     display: flex;
     justify-content: center;
 }
-
-
+/* image styles and setting image as bg */
 .image-holder{
     width: 300px;
     height: 400px;
@@ -23,4 +22,19 @@ body{
     background-size: cover;
     border-bottom-left-radius:300px ;
     border-bottom-right-radius:300px ;
+}
+/* text section styles */
+.textSection{
+    text-align: center;
+    margin-top: 70px;
+}
+/* texts styles */
+.p1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.p2{
+    color: gold;
+    font-size: 16px;
 }
