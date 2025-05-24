@@ -38,3 +38,22 @@ body{
     color: gold;
     font-size: 16px;
 }
+/* soacial section */
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn{
+    background-color: gold;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px 5px 20px;
+}
+i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: gold;
+}
