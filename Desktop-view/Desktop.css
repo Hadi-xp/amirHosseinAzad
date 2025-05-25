@@ -1,0 +1,73 @@
+/* body back-ground */
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/Desktop-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+/* making the left part of screen */
+ .leftSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+ }
+ /* placing image and making it circle using border-raduis  */
+.imageHolder{
+    width: 450px;
+    height: 450px;
+    background-image: url('../images/drAzad2.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+.textSection{
+    text-align: center;
+}
+.p1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+.p2{
+    font-size: 25px;
+    color: gold;
+    font-weight: bold;
+}
+.btnHolder{
+    width: 51vh;
+    text-align: right;
+}
+.btn{
+    border: none;
+    padding: 7px 25px 7px 25px;
+    border-radius: 10px;
+    background-color: gold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 15px;
+    text-align: right;
+}
+i{
+    background-color: gold;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
