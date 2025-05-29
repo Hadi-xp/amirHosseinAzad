@@ -3,7 +3,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    background-image: url('../images/Desktop-bg.jpg');
+    background-image: url('../images/pc2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -20,6 +20,15 @@ body{
     height: 100vh;
  }
  /* placing image and making it circle using border-raduis  */
+ .imageBack{
+    width: 550px;
+    height: 550px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 .imageHolder{
     width: 450px;
     height: 450px;
@@ -70,4 +79,7 @@ i{
     padding: 8px;
     border-radius: 50%;
     cursor: pointer;
+}
+a{
+    color: black;
 }
