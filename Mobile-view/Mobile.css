@@ -38,6 +38,7 @@ body{
 .p2{
     color: gold;
     font-size: 16px;
+    margin: 10px 0px 0px 0px;
 }
 /* soacial section */
 .socialContainer{
@@ -46,6 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-top: 50px;
 }
 .btn{
     background-color: gold;
