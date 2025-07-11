@@ -9,6 +9,10 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
+/* font */
+*{
+    font-family: vazir;
+}
 /* centering image holder */
 .image-container{
     display: flex;
@@ -20,8 +24,9 @@ body{
     height: 350px;
     background-image: url('../images/drAzad2BW.jpg');
     background-size: cover;
-    border-bottom-left-radius:300px ;
-    border-bottom-right-radius:300px ;
+    /* border-bottom-left-radius:300px ;
+    border-bottom-right-radius:300px ; */
+    
 }
 /* text section styles */
 .textSection{
