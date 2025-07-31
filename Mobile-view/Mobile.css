@@ -2,12 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../images/mobile2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+    background-image: linear-gradient(to right,rgba(73,70,79),rgba(59,54,66));
 }
 /* font */
 *{
@@ -20,13 +15,20 @@ body{
 }
 /* image styles and setting image as bg */
 .image-holder{
-    width: 250px;
-    height: 350px;
-    background-image: url('../images/drAzad2BW.jpg');
-    background-size: cover;
+    margin-top: 6rem;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(249, 192, 23, 1);
+    border-radius: 50%;
+    /* background-image: url('../images/drAzad2BW.jpg'); */
+    /* background-size: cover; */
     /* border-bottom-left-radius:300px ;
     border-bottom-right-radius:300px ; */
     
+}
+.mainImage{
+    width: 100px; ;
+    height: 100px ;
 }
 /* text section styles */
 .textSection{
