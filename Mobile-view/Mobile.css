@@ -11,6 +11,7 @@ body{
 /* centering image holder */
 .image-container{
     display: flex;
+    position: relative;
     justify-content: center;
 }
 /* image styles and setting image as bg */
@@ -20,15 +21,14 @@ body{
     height: 200px;
     background-color: rgba(249, 192, 23, 1);
     border-radius: 50%;
-    /* background-image: url('../images/drAzad2BW.jpg'); */
-    /* background-size: cover; */
-    /* border-bottom-left-radius:300px ;
-    border-bottom-right-radius:300px ; */
-    
+    z-index: -1;
 }
 .mainImage{
-    width: 100px; ;
-    height: 100px ;
+    width: 210px; ;
+    height: 240px ;
+    border-radius: 50%;
+    position: absolute;
+    top: 4rem;
 }
 /* text section styles */
 .textSection{
