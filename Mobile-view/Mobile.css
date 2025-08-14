@@ -37,7 +37,7 @@ body{
 }
 /* texts styles */
 .p1{
-    color: #fff;
+    color: rgba(249, 192, 23, 1);
     font-size: 32px;
     font-weight: bold;
     margin: 0;
@@ -57,18 +57,18 @@ body{
     margin-top: 50px;
 }
 .btn{
-    background-color: gold;
+    background-color: rgba(249, 192, 23, 1);
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 5px 20px 5px 20px;
 }
 i{
     padding: 10px;
     border-radius: 50%;
-    background-color: gold;
+    background-color: rgba(249, 192, 23, 1);
 }
 /* animation css */
 
 a{
-    color: black;
+    color: rgba(52, 47, 60, 1);
 }
