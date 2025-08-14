@@ -7,7 +7,12 @@ body{
 /* font */
 @font-face {
     font-family: myVazir;
-    src: url(/font/FontsFree-Net-Vazir-Medium-1.ttf);
+    src: url(/font/FontsFree-Net-Vazir-Medium-1.ttf),
+    url(/font/Vazir-Black.ttf),
+    url(/font/Vazir-Bold.ttf),
+    url(/font/Vazir-Light.ttf),
+    url(/font/Vazir-Regular.ttf),
+    url(/font/Vazir-Thin.ttf);
 }
 *{
     font-family: myVazir;
