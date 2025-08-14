@@ -5,8 +5,12 @@ body{
     background-image: linear-gradient(to right,rgba(73,70,79),rgba(59,54,66));
 }
 /* font */
+@font-face {
+    font-family: myVazir;
+    src: url(/font/FontsFree-Net-Vazir-Medium-1.ttf);
+}
 *{
-    font-family: vazir;
+    font-family: myVazir;
 }
 /* centering image holder */
 .image-container{
