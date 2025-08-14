@@ -15,7 +15,7 @@ body{
     url(/font/Vazir-Thin.ttf);
 }
 *{
-    font-family: myVazir;
+    font-family: myVazir,sans-serif;
 }
 /* centering image holder */
 .image-container{
