@@ -167,3 +167,46 @@ a{
     font-size: .75rem;
     margin-bottom: 5px;
 }
+/* about me */
+.textArea{
+    margin-top: 10rem;
+    height: 100vh;
+    background-color:rgba(249, 192, 23, 1);
+    border-top-left-radius:113px;
+    border-top-right-radius:113px;
+    display: flex;
+    justify-content: center;
+}
+.textContent{
+    width: 80%;
+    height: 100%;
+    text-align: right;
+    font-size: 12px;
+    direction: rtl;
+}
+.textContent p{
+    margin-top: 2rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.head i{
+    color: #fff;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 35px;
+    margin-top: 13px;
+    
+}
+.head span{
+    color: #fff;
+    font-size: 35px;
+}
+.head a{
+}
