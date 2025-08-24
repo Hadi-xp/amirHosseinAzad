@@ -134,3 +134,35 @@ i{
 a{
     color: rgba(52, 47, 60, 1);
 }
+/* Contents */
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.topElements{
+    display: flex;
+    gap: 20px;
+}
+.bottomElements{
+    display: flex;
+    gap: 20px;
+}
+.elementCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.elements i{
+    padding: 1.5rem;
+    border-radius: 30px;
+    font-size: 2.5rem;
+}
+.elements span{
+    color: #fff;
+    font-size: .75rem;
+    margin-bottom: 5px;
+}
