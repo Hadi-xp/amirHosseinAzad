@@ -210,3 +210,42 @@ a{
 }
 .head a{
 }
+
+/* gallery */
+.imageContent{
+    text-align: center;
+    margin-top: 1rem;
+    height: 100vh;
+    background-color:rgba(249, 192, 23, 1);
+
+    /* scrollable */
+
+}
+.imageBox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+.spanHolder span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.button1{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 10px 6px 26px 0 rgba(0, 0, 0, 0.25);
+}
+.button2{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 10px 6px 26px 0 rgba(0, 0, 0, 0.25);
+}
