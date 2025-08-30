@@ -10,26 +10,22 @@ const images = [
     '../images/مراسم فارغ التحصیلی6.jpg',
 ];
 
-let index = 0; // start at first image
+let index = 0;
 const mainPicture = document.querySelector('.mainPicture');
 
-// show initial image
+// Always start at first image
 mainPicture.src = images[index];
 
 function nextImage() {
-    index = (index + 1) % images.length; // forward
+    index = (index + 1) % images.length;
     mainPicture.src = images[index];
 }
 
 function prevImage() {
-    index = (index - 1 + images.length) % images.length; // backward
+    index = (index - 1 + images.length) % images.length;
     mainPicture.src = images[index];
 }
 
-// support desktop + mobile
+// Only use click (works on touch too)
 button1.addEventListener('touchstart', nextImage);
-button1.addEventListener('touch', nextImage);
-button1.addEventListener('click', nextImage);
 button2.addEventListener('touchstart', prevImage);
-button2.addEventListener('touch', prevImage);
-button2.addEventListener('click', prevImage);
