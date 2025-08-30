@@ -28,4 +28,6 @@ function prevImage() {
 
 // support desktop + mobile
 button1.addEventListener('touchstart', nextImage);
+button1.addEventListener('click', nextImage);
 button2.addEventListener('touchstart', prevImage);
+button2.addEventListener('click', prevImage);
