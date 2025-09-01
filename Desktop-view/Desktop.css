@@ -3,7 +3,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    background-image: url('../images/pc2.jpg');
+    background-image: linear-gradient(to right,rgba(73,70,79),rgba(59,54,66));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -86,7 +86,7 @@ body{
  .imageBack{
     width: 550px;
     height: 550px;
-    background-color: gray;
+    background-color: gold;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -117,13 +117,13 @@ body{
     margin: 0;
 }
 .p2{
-    font-size: 25px;
+    font-size: 23px;
     color: gold;
     font-weight: bold;
 }
 .btnHolder{
     width: 51vh;
-    text-align: right;
+    text-align: center;
 }
 .btn{
     border: none;
@@ -135,7 +135,7 @@ body{
 }
 .icons{
     margin-top: 15px;
-    text-align: right;
+    text-align: center;
 }
 i{
     background-color: gold;
@@ -145,4 +145,182 @@ i{
 }
 a{
     color: black;
+}
+/* elements */
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+.topElements{
+    display: flex;
+    gap: 20px;
+}
+.bottomElements{
+    display: flex;
+    gap: 20px;
+}
+.elementCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.elements i{
+    padding: 1.5rem;
+    border-radius: 30px;
+    font-size: 2.5rem;
+}
+.elements span{
+    color: #fff;
+    font-size: .75rem;
+    margin-bottom: 5px;
+}
+.textArea{
+    margin-top: 10rem;
+    height: 100vh;
+    background-color:rgba(249, 192, 23, 1);
+    border-top-left-radius:113px;
+    border-top-right-radius:113px;
+    display: flex;
+    justify-content: center;
+}
+.textContent{
+    width: 80%;
+    height: 100%;
+    text-align: right;
+    font-size: 12px;
+    direction: rtl;
+}
+.textContent p{
+    margin-top: 2rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.head i{
+    color: #fff;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 35px;
+    margin-top: 13px;
+    
+}
+.head span{
+    color: #fff;
+    font-size: 35px;
+}
+
+/* gallery */
+.imageContent{
+    text-align: center;
+    margin-top: 1rem;
+    height: 100vh;
+    background-color:rgba(249, 192, 23, 1);
+
+    /* scrollable */
+
+}
+.imageBox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+.spanHolder span{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* about me */
+.textArea{
+    margin-top: 5rem;
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(249, 192, 23, 1);
+    border-top-left-radius:113px;
+    border-top-right-radius:113px;
+    display: flex;
+    justify-content: center;
+}
+.textContent{
+    width: 80%;
+    height: 100%;
+    text-align: right;
+    font-size: 12px;
+    direction: rtl;
+}
+.textContent p{
+    margin-top: 2rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.head i{
+    color: #fff;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 35px;
+    margin-top: 13px;
+    
+}
+.head span{
+    color: #fff;
+    font-size: 35px;
+}
+.head a{
+}
+
+/* gallery */
+.imageContent{
+    text-align: center;
+    margin-top: 1rem;
+    height: 100vh;
+    background-color:rgba(249, 192, 23, 1);
+
+    /* scrollable */
+
+}
+.imageBox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+.spanHolder span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.button1{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 10px 6px 26px 0 rgba(0, 0, 0, 0.25);
+}
+.button2{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 10px 6px 26px 0 rgba(0, 0, 0, 0.25);
 }
